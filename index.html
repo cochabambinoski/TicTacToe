@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="board">
+        <h2 id="game-message">Tic tac toe</h2>
+        <div id="row-1">
+            <div onclick="play(this,1);"></div>
+            <div onclick="play(this,2);"></div>
+            <div onclick="play(this,4);"></div>
+        </div>
+        <div id="row-2">
+            <div onclick="play(this,8);"></div>
+            <div onclick="play(this,16);"></div>
+            <div onclick="play(this,32);"></div>
+        </div>
+        <div id="row-3">
+            <div onclick="play(this,64);"></div>
+            <div onclick="play(this,128);"></div>
+            <div onclick="play(this,256);"></div>
+        </div>
+    </div>
+</body>
+</html>
